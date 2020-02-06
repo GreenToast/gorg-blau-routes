@@ -9,13 +9,15 @@
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <base href="https://greentoast.github.io/gorg-blau-routes/">
-    <script src="jquery-ui/jquery.min.js"></script>
-    <script src="jquery-ui/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
-            $( function() {
-              $( "#tabs" ).tabs();
-            } );
-            </script>
+        console.log('test');
+        $(function () {
+            $("#days").tabs();
+        });
+    </script>
 </head>
 
 <body>
@@ -32,188 +34,202 @@
         <div class="txt">
         </div>
     </section>
-    <div id="tabs">
-        <a href="#day-1">
-            <div class="heading">
-                <h3>Tag 1</h3>
+    <div id="days">
+        <ul>
+            <li>
+                <a href="#days-1">
+                    <div class="heading">
+                        <h3>Tag 1</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#days-2">
+                    <div class="heading">
+                        <h3>Tag 2</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#days-3">
+                    <div class="heading">
+                        <h3>Tag 3</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#days-4">
+                    <div class="heading">
+                        <h3>Tag 4</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#days-5">
+                    <div class="heading">
+                        <h3>Tag 5</h3>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#days-6">
+                    <div class="heading">
+                        <h3>Tag 6</h3>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <section class="section" id="days-1">
+            <h3>Tag 1 - 23.02.2020</h3>
+            <div class="txt padding">
+                <p>
+                    Auf gehts zum Einrollen zum Kap Formentor mit optionaler Verlängerung nach Alcudia und Sa Pobla
+                </p>
+                <div class="gpx-link">
+                    <a href="gpx/day1-formentor/Formentor-Alcudia-Sa Pobla.gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Lange Route</p>
+                </div>
             </div>
-        </a>
-        <a href="#day-2"></a>
-            <div class="heading">
-                <h3>Tag 2</h3>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5572477/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>
             </div>
-        </a>
-        <a href="#day-3">
-            <div class="heading">
-                <h3>Tag 3</h3>
+            <div>
+                <div class="gpx-link">
+                    <a href="gpx/day1-formentor/Pollensa-Formentor-Pollensa.gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Kurze Route</p>
+                </div>
             </div>
-        </a>
-        <a href="#day-4">
-            <div class="heading">
-                <h3>Tag 4</h3>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/4350331/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>
             </div>
-        </a>
-        <a href="#day-5">
-            <div class="heading">
-                <h3>Tag 5</h3>
+        </section>
+        <section class="section" id="days-2">
+            <h3>Tag 2 - 24.02.2020</h3>
+            <div class="txt padding">
+                <p>
+                    alsjdlasdals
+                </p>
+                <div class="gpx-link">
+                    <a href="gpx/day2-sa callobra/Sa Calobra (lang).gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Lange Route Sa Calobra</p>
+                </div>
             </div>
-        </a>
-        <a href="#day-6">
-            <div class="heading">
-                <h3>Tag 6</h3>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5501810/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>
             </div>
-        </a>
+            <div>
+                <div class="gpx-link">
+                    <a href="gpx/day2-sa callobra/Sa Calobra (kurz).gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Kurze Route Sa Calobra</p>
+                </div>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5501800/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>§
+            </div>
+            <div>
+                <div class="gpx-link">
+                    <a href="gpx/day2-sa callobra/Tour 1 - ES Pollenca - Sa Batalla.gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Kurze Route ohne Sa Calobra</p>
+                </div>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5552672/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>§
+            </div>
+        </section>
+        <section class="section" id="days-3">
+            <h3>Tag 3 - 25.02.2020</h3>
+            <div class="txt padding">
+                <p>
+                    alsjdlasdals
+                </p>
+                <div class="gpx-link">
+                    <a href="gpx/day3/Cross Tramuntana.gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Lange Route</p>
+                </div>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5501822/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>
+            </div>
+            <div>
+                <div class="gpx-link">
+                    <a href="gpx/day3/Pollenca-Muro Runde.gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Kurze Route</p>
+                </div>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5552689/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>
+            </div>
+        </section>
+        <section class="section" id="days-4">
+            <h3>Tag 4 - 26.02.2020</h3>
+            <div class="txt padding">
+                <p>
+                    alsjdlasdals
+                </p>
+                <div class="gpx-link">
+                    <a href="gpx/day4/125 km Felanitx.gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Lange Route</p>
+                </div>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5573825/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>
+            </div>
+            <div>
+                <div class="gpx-link">
+                    <a href="gpx/day4/Pollenca, Alcudia, Son Baulo, Muro.gpx">
+                        <img src="css/gpx.svg">
+                    </a>
+                    <p>Kurze Route</p>
+                </div>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.bikemap.net/en/r/5540009/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
+                    width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
+                    scrolling="no"> </iframe>§
+            </div>
+        </section>
     </div>
-    <section class="section" id="day-1">
-        <h3>Tag 1 - 23.02.2020</h3>
-        <div class="txt padding">
-            <p>
-                Auf gehts zum Einrollen zum Kap Formentor mit optionaler Verlängerung nach Alcudia und Sa Pobla
-            </p>
-            <div class="gpx-link">
-                <a href="gpx/day1-formentor/Formentor-Alcudia-Sa Pobla.gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Lange Route</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/5572477/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>
-        </div>
-        <div>
-            <div class="gpx-link">
-                <a href="gpx/day1-formentor/Pollensa-Formentor-Pollensa.gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Kurze Route</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/4350331/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>§
-        </div>
-    </section>
-    <section class="section" id="day-2">
-        <h3>Tag 2 - 24.02.2020</h3>
-        <div class="txt padding">
-            <p>
-                alsjdlasdals
-            </p>
-            <div class="gpx-link">
-                <a href="gpx/day2-sa callobra/Sa Calobra (lang).gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Lange Route Sa Calobra</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/5501810/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>
-        </div>
-        <div>
-            <div class="gpx-link">
-                <a href="gpx/day2-sa callobra/Sa Calobra (kurz).gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Kurze Route Sa Calobra</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/5501800/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>§
-        </div>
-        <div>
-            <div class="gpx-link">
-                <a href="gpx/day2-sa callobra/Tour 1 - ES Pollenca - Sa Batalla.gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Kurze Route ohne Sa Calobra</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/5552672/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>§
-        </div>
-    </section>
-    <section class="section" id="day-3">
-        <h3>Tag 3 - 25.02.2020</h3>
-        <div class="txt padding">
-            <p>
-                alsjdlasdals
-            </p>
-            <div class="gpx-link">
-                <a href="gpx/day3/Cross Tramuntana.gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Lange Route</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/5501822/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>
-        </div>
-        <div>
-            <div class="gpx-link">
-                <a href="gpx/day3/Pollenca-Muro Runde.gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Kurze Route</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/5552689/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>§
-        </div>
-    </section>
-    <section class="section" id="day-4">
-        <h3>Tag 4 - 26.02.2020</h3>
-        <div class="txt padding">
-            <p>
-                alsjdlasdals
-            </p>
-            <div class="gpx-link">
-                <a href="gpx/day4/125 km Felanitx.gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Lange Route</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/3886479/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>
-        </div>
-        <div>
-            <div class="gpx-link">
-                <a href="gpx/day4/Pollenca, Alcudia, Son Baulo, Muro.gpx">
-                    <img src="css/gpx.svg">
-                </a>
-                <p>Kurze Route</p>
-            </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.bikemap.net/en/r/5540009/widget/?width=400&amp;height=400&amp;extended=1&amp;distance_markers=1&amp;unit=metric"
-                width="375" height="705.3333333333334" border="0" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="no"> </iframe>§
-        </div>
-    </section>
 </body>
 
 </html>

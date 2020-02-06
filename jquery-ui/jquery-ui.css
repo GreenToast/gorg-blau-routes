@@ -869,7 +869,6 @@ button.ui-button::-moz-focus-inner {
 	display: block;
 	border-width: 0;
 	padding: 1em 1.4em;
-	background: none;
 }
 .ui-tooltip {
 	padding: 8px;
@@ -902,7 +901,6 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #dddddd;
-	background: #ffffff;
 	color: #333333;
 }
 .ui-widget-content a {

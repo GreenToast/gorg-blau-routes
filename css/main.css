@@ -99,5 +99,6 @@ body, html
 }
 
 section > h3 {
-    padding-top: 10px4
+    padding-top: 10px;
+    color: white;   
 }
