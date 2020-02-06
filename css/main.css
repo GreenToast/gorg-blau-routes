@@ -1,0 +1,100 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:'Karla', sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #666;
+}
+.img1,.img2,.img3,.img4
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1
+{
+    background-image: url('../img/road2.png');
+    min-height:100%;
+}
+.apartment {
+    width: 100%;
+}
+.section
+{
+    text-align: center;
+    background-color: #282e34;
+}
+.sec1
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.padding
+{
+    color: #ddd;
+    padding: 50px 80px;
+}
+.txt
+{
+    top: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+}
+.txtdark
+{
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+}
+.txt .border
+{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
+.txt .border.trans{
+    background-color: transparent;
+}
+.logo {
+    bottom: 0;
+	left: 0;
+	margin: auto;
+	max-height: 70%;
+	max-width: 70%;
+	position: absolute;
+	right: 0;
+	top: 30%;
+}
+.heading {
+	margin: auto;
+	max-height: 80%;
+	max-width: 80%;
+}
+.signup {
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    letter-spacing: 8px;
+    text-transform:uppercase;
+}
+.gpx-link {
+    color: white;
+    margin-top:10px;
+}
+
