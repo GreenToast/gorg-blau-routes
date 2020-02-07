@@ -15,9 +15,16 @@ body, html
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media (min-width: 1200px){
+    .img1
+    {
+        background-image: url('../img/road2.png');
+        min-height:100%;
+    }
+}
 .img1
 {
-    background-image: url('../img/road2.png');
+    background-image: url('../img/road2-small.png');
     min-height:100%;
 }
 .apartment {
